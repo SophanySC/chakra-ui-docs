@@ -58,6 +58,7 @@ module.exports = {
             <Thumb value={state.value[1]} thumbIndex={1} thumbProps={thumbPropsSecondIndex} onKeyDownStepBy={onKeyDownStepBy} bgColor="teal.500" />
           </chakra.div>
         </Box>
+
       );
     }
     `,
@@ -164,6 +165,7 @@ const ThumbIndexIcon = ({ bgColor }: Props) => {
 };
 export default ThumbIndexIcon;`,
     Thumb: `import { Flex, Box, Text } from "@chakra-ui/react";
+
     import * as React from "react";
     
     type Props = {
